@@ -33,7 +33,7 @@ export function Splash(){
 
   useEffect(()=>{
     logoAnimation.value = withTiming(
-      500,
+      50,
       {duration: 5000},
       () =>{
         'worklet'
